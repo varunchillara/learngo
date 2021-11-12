@@ -25,8 +25,14 @@ package main
 // ?
 // ?
 
+import (
+	console "fmt"
+	f "fmt"
+	log "fmt"
+)
+
 func main() {
-	// ?
-	// ?
-	// ?
+	f.Println("test f")
+	console.Println("test console")
+	log.Println("test log")
 }

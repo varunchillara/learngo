@@ -12,7 +12,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello!")
-
+	hey()
 	// two files belong to the same package
 	// calling `bye()` of bye.go here
 	bye()
